@@ -1,6 +1,6 @@
-## Kami Effects
+![Kami Motion - Carefully crafted effects](src/assets/images/top-banner.jpg)
 
-A React effects library built using NextJS and Framer Motion.
+A React effects library built using Framer Motion in NextJS.
 
 Current effects:
 

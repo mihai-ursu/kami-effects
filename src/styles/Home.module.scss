@@ -1,5 +1,8 @@
+@use "utils" as *;
+
 .container {
   max-width: var(--container-width);
   margin: 0 auto;
   padding-inline: 2rem;
+  padding-top: rem(200);
 }
