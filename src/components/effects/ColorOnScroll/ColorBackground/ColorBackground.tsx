@@ -7,7 +7,7 @@ const ColorBackground: FunctionComponent = () => {
   const colorBackground = useTransform(
     scrollY,
     [200, 600],
-    ["#eff0eb", "#000"]
+    ["#fff", "#e8fd25"]
   );
 
   return (

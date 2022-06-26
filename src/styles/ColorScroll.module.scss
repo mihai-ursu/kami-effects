@@ -1,17 +1,7 @@
 @use "utils" as *;
 
-.container {
+.main {
   position: relative;
-  min-height: 200vh;
-  padding-top: rem(200);
-}
-
-.stickyHeadline {
-  position: sticky;
-  top: 50%;
-  left: 50%;
-  z-index: 1;
-  margin: 0;
-  width: max-content;
-  transform: translate(-50%, -50%);
+  padding-top: rem(150);
+  padding-bottom: rem(150);
 }

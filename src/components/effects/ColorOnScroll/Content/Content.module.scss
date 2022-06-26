@@ -1,0 +1,52 @@
+@use "utils" as *;
+
+.content {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding-top: rem(60);
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.row {
+  display: flex;
+  gap: 3rem;
+}
+
+.leftColumn {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 50%;
+}
+
+.imageWrapper {
+  margin-top: 4rem;
+}
+
+.rightColumn {
+  flex-basis: 50%;
+
+  &.imageRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.text {
+  line-height: rem(28);
+}
+
+.title {
+  font-size: rem(94);
+  color: $kami-motion-nature-green;
+}
+
+.quote {
+  line-height: rem(34);
+  padding-top: rem(100);
+}

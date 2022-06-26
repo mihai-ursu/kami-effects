@@ -4,4 +4,4 @@ A React effects library built using Framer Motion in NextJS.
 
 Current effects:
 
-- Smooth Background Color Change (color-scroll)
+- Smooth Background Color Change on Scroll (color-scroll)
