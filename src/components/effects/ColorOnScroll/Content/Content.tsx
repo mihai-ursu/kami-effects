@@ -1,15 +1,48 @@
 import Image from "next/image";
 import { FunctionComponent } from "react";
 import styles from "./Content.module.scss";
+import { motion } from "framer-motion";
+import AnimatedArrow from "./components/AnimatedArrow/AnimatedArrow";
 
 const Content: FunctionComponent = () => {
+  const variants = {
+    hidden: { y: 100 },
+    visible: { y: 0 },
+  };
+
   return (
     <div className={styles.content}>
       <div className={styles.row}>
         <div className={styles.leftColumn}>
-          <h1 className={styles.title}>
-            Work for the biggest startup in the world.
-          </h1>
+          <div className={styles.textTop}>
+            <span className={styles.titleWrapper}>
+              <motion.h1
+                initial="hidden"
+                animate="visible"
+                variants={variants}
+                transition={{ duration: 0.6, ease: [0.6, 0.01, -0.05, 0.95] }}
+                className={styles.title}
+              >
+                Color change
+              </motion.h1>
+            </span>
+            <span className={styles.titleWrapper}>
+              <motion.h1
+                initial="hidden"
+                animate="visible"
+                variants={variants}
+                transition={{
+                  duration: 0.6,
+                  delay: 0.6,
+                  ease: [0.6, 0.01, -0.05, 0.95],
+                }}
+                className={styles.title}
+              >
+                On Scroll
+              </motion.h1>
+            </span>
+            <AnimatedArrow arrowClass={styles.arrow} />
+          </div>
           <div className={styles.imageWrapper}>
             <Image
               src="/images/student-with-book.jpg"

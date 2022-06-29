@@ -4,11 +4,7 @@ import styles from "./ColorBackground.module.scss";
 
 const ColorBackground: FunctionComponent = () => {
   const { scrollY } = useViewportScroll();
-  const colorBackground = useTransform(
-    scrollY,
-    [200, 600],
-    ["#fff", "#e8fd25"]
-  );
+  const colorBackground = useTransform(scrollY, [200, 600], ["#fff", "#000"]);
 
   return (
     <div className={styles.backgroundWrapper}>

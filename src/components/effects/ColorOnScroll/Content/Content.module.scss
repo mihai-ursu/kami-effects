@@ -23,6 +23,12 @@
   max-width: 50%;
 }
 
+.arrow {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+}
+
 .imageWrapper {
   margin-top: 4rem;
 }
@@ -41,12 +47,25 @@
   line-height: rem(28);
 }
 
+.textTop {
+  position: relative;
+}
+
+.titleWrapper {
+  display: block;
+  overflow: hidden;
+}
+
 .title {
   font-size: rem(94);
-  color: $kami-motion-nature-green;
 }
 
 .quote {
   line-height: rem(34);
   padding-top: rem(100);
+  color: $kami-white;
+}
+
+.author {
+  color: $kami-white;
 }

@@ -1,0 +1,10 @@
+@use "utils" as *;
+
+.line {
+  stroke: #000;
+  stroke-width: rem(1.5);
+}
+
+.arrow {
+  height: 5rem;
+}
