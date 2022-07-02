@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import styles from "styles/ColorScrollPage.module.scss";
 import Layout from "components/Layout/Layout";
-import ColorBackground from "@/components/effects/ColorOnScroll/ColorBackground/ColorBackground";
-import Content from "@/components/effects/ColorOnScroll/Content/Content";
+import ColorBackground from "@/components/effects/ColorBackgroundOnScroll/ColorBackgroundOnScroll";
+import Content from "@/components/content/ColorOnScroll/Content";
 
 const ColorScrollPage: NextPage = () => {
   return (

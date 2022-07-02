@@ -1,8 +1,8 @@
 import { FunctionComponent } from "react";
 import { useViewportScroll, motion, useTransform } from "framer-motion";
-import styles from "./ColorBackground.module.scss";
+import styles from "./ColorBackgroundOnScroll.module.scss";
 
-const ColorBackground: FunctionComponent = () => {
+const ColorBackgroundOnScroll: FunctionComponent = () => {
   const { scrollY } = useViewportScroll();
   const colorBackground = useTransform(scrollY, [200, 600], ["#fff", "#000"]);
 
@@ -16,4 +16,4 @@ const ColorBackground: FunctionComponent = () => {
   );
 };
 
-export default ColorBackground;
+export default ColorBackgroundOnScroll;

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FunctionComponent } from "react";
 import styles from "./Content.module.scss";
 import { motion } from "framer-motion";
-import AnimatedArrow from "./components/AnimatedArrow/AnimatedArrow";
+import AnimatedArrow from "./AnimatedArrow/AnimatedArrow";
 
 const Content: FunctionComponent = () => {
   const variants = {
