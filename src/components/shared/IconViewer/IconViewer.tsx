@@ -1,8 +1,8 @@
-import { FunctionComponent } from "react";
+import { FC } from "react";
 import IconViewerProps from "./IconViewerProps";
 import Logo from "./Icons/Logo";
 
-const IconViewer: FunctionComponent<IconViewerProps> = (props) => {
+const IconViewer: FC<IconViewerProps> = (props) => {
   const { name, className } = props;
 
   const renderIcon = (iconName: string) => {

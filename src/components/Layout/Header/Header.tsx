@@ -1,4 +1,4 @@
-import IconViewer from "@/components/shared/IconViewer/IconViewer";
+import IconViewer from "@/components/Shared/IconViewer/IconViewer";
 import Link from "next/link";
 import { FC } from "react";
 import styles from "./Header.module.scss";

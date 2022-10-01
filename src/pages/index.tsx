@@ -3,7 +3,7 @@ import Head from "next/head";
 import Layout from "components/Layout/Layout";
 import styles from "styles/Home.module.scss";
 import data from "../data/effects";
-import Card from "components/slices/Card/Card";
+import Card from "components/Shared/Card/Card";
 
 const Home: NextPage = () => {
   return (

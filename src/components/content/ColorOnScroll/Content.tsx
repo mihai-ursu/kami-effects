@@ -48,6 +48,7 @@ const Content: FunctionComponent = () => {
               src="/images/student-with-book.jpg"
               width={400}
               height={600}
+              alt="Girl Image"
             />
           </div>
         </div>
@@ -66,20 +67,26 @@ const Content: FunctionComponent = () => {
       <div className={styles.row}>
         <div className={styles.leftColumn}>
           <h2 className={styles.quote}>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            commodi natus alias repellendus doloribus tempora rerum consectetur
-            voluptatibus, laborum sint laboriosam molestias consequuntur quis
-            reprehenderit voluptas repellat provident optio itaque? Voluptates
-            necessitatibus vero autem error provident asperiores fuga quaerat
-            quis quo aspernatur, minus voluptatibus accusantium tempora ipsam ab
-            eaque eius quod quam culpa perspiciatis! Excepturi optio aliquam
-            quia veritatis! Laudantium!"
+            &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate commodi natus alias repellendus doloribus tempora rerum
+            consectetur voluptatibus, laborum sint laboriosam molestias
+            consequuntur quis reprehenderit voluptas repellat provident optio
+            itaque? Voluptates necessitatibus vero autem error provident
+            asperiores fuga quaerat quis quo aspernatur, minus voluptatibus
+            accusantium tempora ipsam ab eaque eius quod quam culpa
+            perspiciatis! Excepturi optio aliquam quia veritatis!
+            Laudantium!&quot;
           </h2>
           <p className={styles.author}> • Laura, Amsterdam</p>
         </div>
 
         <div className={`${styles.rightColumn} ${styles.imageRight}`}>
-          <Image src="/images/laura.jpg" width={600} height={400} />
+          <Image
+            src="/images/laura.jpg"
+            width={600}
+            height={400}
+            alt="Girl Image"
+          />
         </div>
       </div>
     </div>

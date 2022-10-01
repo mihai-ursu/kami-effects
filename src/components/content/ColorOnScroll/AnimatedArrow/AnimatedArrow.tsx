@@ -1,5 +1,5 @@
-import { FunctionComponent, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
+import { FunctionComponent } from "react";
+import { motion } from "framer-motion";
 import styles from "./AnimatedArrow.module.scss";
 import AnimatedArrowProps from "./AnimatedArrowProps";
 

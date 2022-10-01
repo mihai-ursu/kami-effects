@@ -1,4 +1,4 @@
-import CustomCursor from "@/components/effects/CustomCursor/CustomCursor";
+import CustomCursor from "@/components/Effects/CustomCursor/CustomCursor";
 import Layout from "@/components/Layout/Layout";
 import type { NextPage } from "next";
 import styles from "styles/CustomCursorPage.module.scss";
