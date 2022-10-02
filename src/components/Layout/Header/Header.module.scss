@@ -1,4 +1,4 @@
-@use "utils" as *;
+@use "css/utils" as *;
 
 .header {
   min-height: rem(120);
@@ -7,6 +7,11 @@
   width: 100%;
   z-index: 10;
   position: absolute;
+  top: 0;
+
+  + main {
+    margin-top: rem(120);
+  }
 }
 
 .container {

@@ -7,11 +7,16 @@ import Content from "@/components/Content/ColorOnScroll/Content";
 const ColorScrollPage: NextPage = () => {
   return (
     <Layout>
-      <ColorBackground initialColor="#fff" finalColor="#000">
-        <main className={styles.main}>
+      <main className={styles.main}>
+        <ColorBackground
+          initialColor="#fff"
+          finalColor="#000"
+          percentageStart={30}
+          percentageEnd={55}
+        >
           <Content />
-        </main>
-      </ColorBackground>
+        </ColorBackground>
+      </main>
     </Layout>
   );
 };

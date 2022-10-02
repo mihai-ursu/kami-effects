@@ -1,7 +1,7 @@
-@use "utils" as *;
-
 .main {
   position: relative;
-  padding-top: rem(150);
-  padding-bottom: rem(150);
+}
+
+.spacer {
+  height: 100vh;
 }

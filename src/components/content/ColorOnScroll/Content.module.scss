@@ -1,13 +1,13 @@
-@use "utils" as *;
+@use "css/utils" as *;
 
 .content {
   max-width: var(--container-width);
   margin: 0 auto;
-  padding-top: rem(60);
   padding-inline: 2rem;
   display: flex;
   flex-direction: column;
   gap: 6rem;
+  padding-bottom: rem(70);
 }
 
 .row {
